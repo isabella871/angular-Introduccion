@@ -1,12 +1,12 @@
 nav{
     background-color: #ababab;
-    height: 150px;
+    height: 85px;
 }
 
 ul{
     justify-content: space-evenly;
     align-items: center;
-    height: 150px;
+    height: 85px;
     display: flex;
 }
 
