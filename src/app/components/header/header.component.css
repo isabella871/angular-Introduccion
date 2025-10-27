@@ -1,5 +1,5 @@
 nav{
-    background-color: #ababab;
+    background-color: #d5c0b0cf;
     height: 85px;
 }
 
@@ -15,8 +15,8 @@ li{
 }
 
 a{
-    color: black;
+    color: rgb(55, 36, 7);
     font-size: 19px;
-    font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:  Arial, Helvetica, sans-serif;
     text-decoration: none;
 }

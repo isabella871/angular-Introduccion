@@ -7,5 +7,23 @@ import { Component } from '@angular/core';
   styleUrl: './todo.component.css'
 })
 export class TodoComponent {
+  number: number = 0;
 
+  addOne() {
+    this.number++;
+  }
+
+  todo: Todo = {
+    id: 0,
+    titulo: '',
+    descripcion: '',
+    fechaLimite: new Date
+  }
+}
+
+interface Todo{
+  id: number;
+  titulo: string;
+  descripcion?: string;
+  fechaLimite?: Date;
 }
