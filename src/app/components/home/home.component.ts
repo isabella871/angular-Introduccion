@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms'
+import { PerfilComponent } from '../../perfil/perfil.component';
 
 @Component({
   selector: 'app-home',
-  imports: [FormsModule],
+  imports: [FormsModule, PerfilComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })
