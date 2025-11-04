@@ -4,5 +4,8 @@
     <input type="text" placeholder="Enter your age" [(ngModel)]="usuario.edad">
 
     <!-- Envía datos a perfil (componente "hijo") -->
-    <app-perfil>[userName]="usuario.userName" [edad]="usuario.edad"</app-perfil>
+    <app-perfil>
+        [userName]="usuario.userName" 
+        [edad]="usuario.edad"
+    </app-perfil>
 </div>
